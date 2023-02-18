@@ -1,0 +1,23 @@
+.keyNat {
+  height: 250px;
+
+  .keyNat-button {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.793);
+    height: 200px;
+    width: 50px;
+    padding-top: 170px;
+    font-family: "Kanit", sans-serif;
+    font-size: 1rem;
+    transition-duration: 0.2s;
+
+    &:hover {
+      background-color: rgba(61, 59, 60, 0.5);
+      color: white;
+    }
+
+    &:active {
+      background-color: rgba(146, 54, 85, 0.5);
+    }
+  }
+}

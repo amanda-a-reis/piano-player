@@ -1,0 +1,62 @@
+.app-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+
+    h2 {
+        padding: 0;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.712);
+        padding: 5px 20px;
+        margin-bottom: 40px;
+    }
+
+    .change-velocity {
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        background-color: rgba(217, 147, 163, 0.743);
+        padding: 20px;
+
+        .velocity-value {
+            font-weight: 400;
+            font-size: 1.3rem;
+            margin-right: 5px;
+            background-color: white;
+            padding: 10px 20px;
+        }
+
+        .velocity-input {
+            width: 140px;
+            height: 30px;
+            padding-left: 15px;
+            font-size: 1.1rem;
+            margin-right: 40px;
+        }
+    }
+
+    .play-button {
+        width: 90px;
+        height: 90px;
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+
+        &:hover {
+            background-color: rgba(146, 54, 85, 0.8);
+            border: transparent;
+            color: white;
+        }
+
+        &:active {
+            background-color: transparent;
+            color: transparent;
+            border: transparent;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 15px solid rgba(48, 48, 48, 0.795);
+  border-radius: 12px;
+
+  .keys-oct {
+    display: flex;
+    flex-direction: row;
+
+    .keys-acc {
+      height: 100px;
+      width: 300px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      position: absolute;
+      transform: translateX(35px);
+      z-index: 2;
+      padding: 0;
+    }
+
+    .keys-nat {
+      display: flex;
+      flex-direction: row;
+      height: 200px;
+      padding: 0;
+    }
+  }
+}

@@ -14,7 +14,7 @@ const accidents5 = generateAccidents("5");
 export default function Piano() {
   return (
     <div className="container">
-      <div className="keys-oct">
+      <div className="keys-oct-left keys-oct">
         <ul className="keys-acc">
           {accidents3.map((item, index) => (
             <KeyAcc note={item.note} time={1} key={index} />
@@ -27,7 +27,7 @@ export default function Piano() {
         </ul>
       </div>
 
-      <div className="keys-oct">
+      <div className="keys-oct-middle keys-oct">
         <ul className="keys-acc">
           {accidents4.map((item, index) => (
             <KeyAcc note={item.note} time={1} key={index} />
@@ -40,7 +40,7 @@ export default function Piano() {
         </ul>
       </div>
 
-      <div className="keys-oct">
+      <div className="keys-oct-right keys-oct">
         <ul className="keys-acc">
           {accidents5.map((item, index) => (
             <KeyAcc note={item.note} time={1} key={index} />

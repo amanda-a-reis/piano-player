@@ -16,39 +16,39 @@ export default function Piano() {
     <div className="container">
       <div className="keys-oct">
         <ul className="keys-acc">
-          {accidents3.map((item) => (
-            <KeyAcc note={item.note} time={1} />
+          {accidents3.map((item, index) => (
+            <KeyAcc note={item.note} time={1} key={index} />
           ))}
         </ul>
         <ul className="keys-nat">
-          {naturalKeys3.map((item) => (
-            <KeyNat note={item.note} time={1} />
+          {naturalKeys3.map((item, index) => (
+            <KeyNat note={item.note} time={1} key={index} />
           ))}
         </ul>
       </div>
 
       <div className="keys-oct">
         <ul className="keys-acc">
-          {accidents4.map((item) => (
-            <KeyAcc note={item.note} time={1} />
+          {accidents4.map((item, index) => (
+            <KeyAcc note={item.note} time={1} key={index} />
           ))}
         </ul>
         <ul className="keys-nat">
-          {naturalKeys4.map((item) => (
-            <KeyNat note={item.note} time={1} />
+          {naturalKeys4.map((item, index) => (
+            <KeyNat note={item.note} time={1} key={index} />
           ))}
         </ul>
       </div>
 
       <div className="keys-oct">
         <ul className="keys-acc">
-          {accidents5.map((item) => (
-            <KeyAcc note={item.note} time={1} />
+          {accidents5.map((item, index) => (
+            <KeyAcc note={item.note} time={1} key={index} />
           ))}
         </ul>
         <ul className="keys-nat">
-          {naturalKeys5.map((item) => (
-            <KeyNat note={item.note} time={1} />
+          {naturalKeys5.map((item, index) => (
+            <KeyNat note={item.note} time={1} key={index} />
           ))}
         </ul>
       </div>

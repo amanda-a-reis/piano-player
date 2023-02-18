@@ -38,6 +38,7 @@ function App() {
       </div>
 
       <button
+        type="button"
         className="play-button"
         onClick={() => {
           let TIME = (totalTime * 1000) / velocity;

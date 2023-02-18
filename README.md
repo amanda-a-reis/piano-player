@@ -1,7 +1,10 @@
-# Piano Player version 1.0.0 :musical_note:
+# Piano Player version 1.0.0 :musical_keyboard:
 
 ## Piano Player is a simple website with a minimalist design that simulates a 3-octave piano. It uses Tone.js and some CSS styles to build the interface.
 
+___
+
+:exclamation: _Ops...This site is not YET responsive. We recommend viewing on larger screens._ :exclamation:
 ___
 
 :tada: Test it:

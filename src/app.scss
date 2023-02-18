@@ -1,62 +1,71 @@
 .app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
 
+  h2 {
+    padding: 0;
+    margin: 10px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.81);
+    font-weight: 400;
+  }
+
+  .change-velocity {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    font-family: 'Kanit', sans-serif;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-style: inset;
+    border-color: rgba(255, 255, 255, 0.81);
+    border-radius: 8px;
 
-    h2 {
-        padding: 0;
-        margin: 10px;
-        background-color: rgba(255, 255, 255, 0.712);
-        padding: 5px 20px;
-        margin-bottom: 40px;
+    .velocity-value {
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin-right: 5px;
+      background-color: white;
+      padding: 10px 20px;
+      border-radius: 2px;
     }
 
-    .change-velocity {
+    .velocity-input {
+      width: 140px;
+      height: 30px;
+      padding-left: 15px;
+      font-size: 1.1rem;
+      margin-right: 40px;
+      background-color: white;
+      border: none;
+      border-radius: 2px;
+    }
+  }
 
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-        background-color: rgba(217, 147, 163, 0.743);
-        padding: 20px;
+  .play-button {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: none;
+    transition-duration: 0.2s;
 
-        .velocity-value {
-            font-weight: 400;
-            font-size: 1.3rem;
-            margin-right: 5px;
-            background-color: white;
-            padding: 10px 20px;
-        }
-
-        .velocity-input {
-            width: 140px;
-            height: 30px;
-            padding-left: 15px;
-            font-size: 1.1rem;
-            margin-right: 40px;
-        }
+    &:hover {
+      background-color: #e76f6c;
+      border: transparent;
+      color: white;
     }
 
-    .play-button {
-        width: 90px;
-        height: 90px;
-        background-color: black;
-        color: white;
-        font-size: 1.5rem;
-        border-radius: 50%;
-        transition-duration: 0.2s;
-
-        &:hover {
-            background-color: rgba(146, 54, 85, 0.8);
-            border: transparent;
-            color: white;
-        }
-
-        &:active {
-            background-color: transparent;
-            color: transparent;
-            border: transparent;
-        }
+    &:active {
+      background-color: transparent;
+      color: transparent;
+      border: transparent;
     }
+  }
 }
+
+

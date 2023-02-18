@@ -9,6 +9,8 @@
     padding-top: 170px;
     font-family: "Kanit", sans-serif;
     font-size: 1rem;
+    border-style: outset;
+    border-color: rgba(122, 122, 122, 0.79);
     transition-duration: 0.2s;
 
     &:hover {
@@ -17,7 +19,7 @@
     }
 
     &:active {
-      background-color: rgba(146, 54, 85, 0.5);
+      background-color: #e76e6c7b;
     }
   }
 }

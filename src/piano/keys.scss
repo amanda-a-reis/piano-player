@@ -1,13 +1,17 @@
 .container {
   display: flex;
   flex-direction: row;
-  border: 15px solid rgba(48, 48, 48, 0.795);
-  border-radius: 12px;
+  border-top: 40px solid rgba(240, 238, 238, 0.145);
+  border-bottom: 8px solid rgba(33, 33, 33, 0.589);
+  border-right: 20px solid rgba(240, 238, 238, 0.145);
+  border-left: 20px solid rgba(240, 238, 238, 0.145);
+  background-size: contain;
+  border-radius: 8px;
 
   .keys-oct {
     display: flex;
     flex-direction: row;
-
+ 
     .keys-acc {
       list-style-type: none;
       height: 100px;
@@ -27,5 +31,20 @@
       padding: 0;
       list-style-type: none;
     }
+  }
+
+  .keys-oct-middle {
+    background-image: url('../../public/flower-piano.png');
+    background-size: cover;
+  }
+
+  .keys-oct-left{
+    background-image: url('../../public/cat2-piano.png');
+    background-size: cover;
+  }
+
+  .keys-oct-right{
+    background-image: url('../../public/cat-piano.png');
+    background-size: cover;
   }
 }

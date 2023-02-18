@@ -4,6 +4,9 @@
 
 ___
 
+:tada: Test it:
+[Piano Player Website](https://the-piano-player.netlify.app/)
+
 [Piano Player Repository](https://github.com/amanda-a-reis/piano-player)
 
 ___
